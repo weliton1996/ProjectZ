@@ -6,6 +6,7 @@ public class ControlaArma : MonoBehaviour
 {
     public GameObject Projetil;
     public GameObject PosicaoDoProjetil;
+    [SerializeField]
     private float tempo,tempoPorDisparo = 0.5f;
     //public AudioClip SomDoDisparo;
     void Update()
